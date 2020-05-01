@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:wght@300&display=swap');
 :root {
-    --primary-color: #396E94;
-    --secondary-color: #E7C24F;
-    --accent1-color: #A43312;
-    --accent2-color: white;
-    --heading-font: "IM Fell French Canon SC";
-    --paragraph-font: Lato, Helvetica, sans-serif
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: #28C2FF;
+    --accent1-color: #3066BE;
+    --accent2-color: #2AF5FF;
+    --heading-font: 'Open Sans', sans-serif;
+    --paragraph-font: 'Raleway', sans-serif;
 }
 
 html {
@@ -15,7 +15,7 @@ html {
 body {
     max-width: 900px;
     margin: 0 auto;
-    background-color: white;
+    background-color: var(--primary-color);
     padding: 1em
 }
 
