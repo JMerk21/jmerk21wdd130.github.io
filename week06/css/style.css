@@ -1,0 +1,236 @@
+body {
+  font-size: 16px;
+  background-color: #fff;
+  margin: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Activity 1 styles */
+.content1 {
+  width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-gap: 20px;
+}
+
+.red1 {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  grid-column: 1/3;
+}
+
+.green1 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.gold1 {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+}
+
+.blue1 {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  grid-column: 1/3;
+}
+
+/* Activity 2 styles */
+.content2 {
+  width: 600px;
+  justify-items: center;
+}
+
+.red2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: static;
+}
+
+.green2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: relative;
+  top: -50px;
+  right: -50px;
+}
+
+.gold2 {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  position: relative;
+  top: -100px;
+  right: -100px;
+}
+
+.blue2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  top: -150px;
+  right: -150px;
+}
+
+/* Activity 3 styles */
+.content3 {
+  width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-gap: 0px;
+  grid-column-gap: 50px;
+}
+
+.red3 {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  grid-column: 1/3;
+}
+
+.green3 {
+  width: 300px;
+  height: 200px;
+  background-color: green;
+}
+
+.gold3 {
+  width: 300px;
+  height: 200px;
+  background-color: gold;
+}
+
+.blue3 {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  grid-column: 1/3;
+}
+
+/* Activity 4 styles */
+.content4 {
+  width: 600px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.red4 {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  grid-column: 1/2;
+}
+
+.green4 {
+  width: 300px;
+  height: 100px;
+  background-color: green;
+  grid-column: 2/3;
+}
+
+.gold4 {
+  width: 300px;
+  height: 100px;
+  background-color: gold;
+  grid-column: 2/3;
+  position: relative;
+  bottom: 200px;
+}
+
+.blue4 {
+  width: 300px;
+  height: 100px;
+  background-color: blue;
+  grid-column: 2/3;
+  position: relative;
+  bottom: 200px;
+}
+
+/* Activity 5 styles */
+.content5 {
+    width: 600px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  
+  .red5 {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+  }
+  
+  .green5 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    float: left;
+    position: absolute;
+  }
+
+  .text {
+      float: right;
+      padding: 10px;
+  }
+  
+  .gold5 {
+    width: 100%;
+    height: 300px;
+    background-color: gold;
+  }
+  
+  .blue5 {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+  }
+  
+  /* Activity 6 styles */
+.content6 {
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  
+  .red6 {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+  }
+  
+  .green6 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: relative;
+    z-index: -100;
+  }
+  
+  .gold6 {
+    width: 200px;
+    height: 400px;
+    background-color: gold;
+    position: relative;
+    left: 400px;
+    top: 300px;
+    z-index: -100;
+
+  }
+  
+  .blue6 {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: relative;
+    bottom: 100px;
+    right: 300px;
+  }
