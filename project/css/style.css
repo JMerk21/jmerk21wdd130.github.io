@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
 @media screen and (max-width: 550px) {
   .wrapper {
@@ -64,10 +65,9 @@ nav ul li {
   padding: 2px;
 }
 
-.wideImg{
-    max-width: 960px;
-    margin: 0;
-    padding: 0;
+.wideImg {
+  max-width: 960px;
+  padding: 0;
 }
 
 header,
@@ -103,9 +103,13 @@ body p {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 1fr 1fr;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 body h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
   display: flex;
   justify-content: center;
 }
@@ -121,3 +125,27 @@ footer .social img {
   left: 775px;
   bottom: 120px;
 }
+
+.wrapper .sectionHead {
+  justify-content: center;
+  text-align: center;
+}
+
+.sectionHead h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+}
+
+.sectionHead h2 {
+  font-size: 1.5em;
+}
+
+p {
+  text-align: left;
+}
+
+form {
+  padding-left: 375px;
+}
+
+
