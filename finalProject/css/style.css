@@ -21,7 +21,7 @@ header {
     font-family: "Open Sans", sans-serif;
     padding: 5px 0;
     display: grid;
-    grid-template-columns: repeat(1fr, 4);
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 150px 30px;
 }
 
