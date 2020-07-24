@@ -35,40 +35,46 @@
                 <h1>Submit YOUR Date Ideas Here!!</h1>
                 <form>
                     <fieldset>
-                        <label for="ageRange">What will the age range for the participants?</label><br>
-                        <select id="ages">
+                        <label for="ages">What will the age range for the participants?</label><br>
+                        <select id="ages" required>
+                            <option disabled selected value> -- select an option -- </option>
                             <option value="18">16-18</option>
                             <option value="24">18-24</option>
                             <option value="30">25-30</option>
                             <option value="30+">30+</option>
-                        </select required><br>
-                        <label for="inOrOut">Will this be Indoors or Outdoors?</label><br>
-                        <select id="doors">
+                        </select><br>
+                        <label for="doors">Will this be Indoors or Outdoors?</label><br>
+                        <select id="doors" required>
+                            <option disabled selected value> -- select an option -- </option>
                             <option value="inside">Indoors</option>
                             <option value="outside">Outdoors</option>
-                        </select required><br>
-                        <label for="ifOut">If outdoors, what season?</label><br>
+                        </select><br>
+                        <label for="season">If outdoors, what season?</label><br>
                         <select id="season">
                             <option value="summerReq">Summer (Warm/Hot Weather)</option>
                             <option value="winderReq">Winter (Cold Weather)</option>
                         </select><br>
+                        
                         <label for="kindOfDate">What kind of date?</label><br>
                         <input type="text" id="kindOfDate" name="kindOfDate" required><br>
+
                         <label for="dateDesc">Description of the Date:</label><br>
                         <input type="text" id="dateDesc" name="dateDesc" required><br>
+
                         <label for="dateSupplies">What preparation/supplies are needed?</label><br>
                         <input type="text" id="dateSupplies" name="dateSupplies" required><br>
-                        <label for="moneyNeeded">How much does it cost?</label><br>
-                        <input type="radio" id="0" name="moneyNeeded" value="0">
-                        <label for="0">$0</label required><br>
+
+                        How much does it cost?<br>
+                        <input type="radio" id="0" name="moneyNeeded" value="0" required>
+                        <label for="0">$0</label><br>
                         <input type="radio" id="0-10" name="moneyNeeded" value="0-10">
-                        <label for="0-10">$0 - $10</label required><br>
+                        <label for="0-10">$0 - $10</label><br>
                         <input type="radio" id="10-25" name="moneyNeeded" value="10-25">
-                        <label for="10-25">$10 - $25</label required><br>
+                        <label for="10-25">$10 - $25</label><br>
                         <input type="radio" id="25-50" name="moneyNeeded" value="25-50">
-                        <label for="25-50">$25 - $50</label required><br>
+                        <label for="25-50">$25 - $50</label><br>
                         <input type="radio" id="50+" name="moneyNeeded" value="50+">
-                        <label for="50+">Over $50</label required><br>
+                        <label for="50+">Over $50</label><br>
 
                         <br><input type="submit" value="Submit">
                     </fieldset>
